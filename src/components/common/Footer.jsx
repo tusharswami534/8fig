@@ -1,5 +1,5 @@
 import React from 'react'
-import LogoImage from '../../assets/image/webp/logo.webp'
+import LogoImage from '../../assets/image/webp/footer-logo.webp'
 import { FacebookIcon, InstagramIcon, LinkedinIcon, TwitterIcon } from './Icons';
 
 const Footer = () => {

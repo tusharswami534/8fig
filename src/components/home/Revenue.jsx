@@ -21,7 +21,7 @@ const Revenue = () => {
                 <div className='max-w-[333px] mt-1'>
                 <p className='leading-[130%] font-medium text-[#0E1122] font-poppins text-[22px] max-sm:text-lg'>By analyzing your sales velocity and growth potential.</p>
                 </div>
-                <button className='py-[3px] mt-5 px-[9px] text-white font-medium bg-[#4C57FF] rounded-3xl hover:bg-[#0E1122] hover:text-[#4C57FF] border border-solid border-[#4C57FF] transition-all duration-300 font-poppins '>
+                <button className='py-[3px] mt-5 px-[9px] text-white bg-[#4C57FF] font-medium hover:bg-white hover:text-[#4C57FF] rounded-3xl text border border-solid border-[#4C57FF] transition-all duration-300 font-poppins '>
                 Apply now
                 </button>
             </div>
