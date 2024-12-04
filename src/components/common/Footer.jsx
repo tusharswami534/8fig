@@ -10,24 +10,24 @@ const Footer = () => {
                <a href="/">
                <img src={LogoImage} alt="LogoImage" /></a>
                <p className='max-w-[163px] ml-[77px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm max-lg:hidden'>8fig, 1717 W 6th St, Austin, Texas</p>
-               <p className='ml-[212px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm max-lg:hidden'>© {currentYear} 8fig - All Rights Reserved</p>
+               <p className='ml-[212px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm max-lg:hidden flex items-center gap-1 uppercase'><span className='!text-[23px] flex '>©</span> {currentYear} 8fig - All Rights Reserved</p>
                <div className='flex items-center gap-9 max-lg:gap-6 ml-auto'>
-                    <a target='_blank' href="https://www.facebook.com/">
+                    <a className='facbook-icon' target='_blank' href="https://www.facebook.com/">
                     <FacebookIcon/>
                     </a>
-                    <a target='_blank' href="https://www.instagram.com/">
+                    <a className='instagram-icon' target='_blank' href="https://www.instagram.com/">
                     <InstagramIcon/>
                     </a>
-                    <a target='_blank' href="https://linked.com/">
+                    <a className='linked-icon' target='_blank' href="https://linked.com/">
                     <LinkedinIcon/>
                     </a>
-                    <a target='_blank' href="https://x.com/i/flow/login">
+                    <a className='twitter-icon' target='_blank' href="https://x.com/i/flow/login">
                     <TwitterIcon/>
                     </a>
                </div>
         </div>
                <p className='max-w-[163px] mt-3.5 text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden'>8fig, 1717 W 6th St, Austin, Texas</p>
-               <p className='text-center mt-[63px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden'>© {currentYear} 8fig - All Rights Reserved</p>
+               <p className='text-center mt-[63px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden flex max-sm:justify-center uppercase'><span className='!text-[23px] flex '>©</span> {currentYear} 8fig - All Rights Reserved</p>
     </div>
   )
 }

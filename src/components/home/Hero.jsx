@@ -20,13 +20,13 @@ const Hero = () => {
                     <div className='max-w-[408px] my-6'>
                         <CommonText Description={'AI technology that predicts, plans, and protects your cash flow.'}/>
                     </div>
-                    <button className='py-2.5 px-11 max-sm:text-sm bg-[#4C57FF] text-white rounded-3xl hover:bg-white hover:text-[#4C57FF] border border-solid border-[#4C57FF] transition-all duration-300 font-poppins font-medium'>
+                    <button className='py-[9px] px-11 max-sm:px-[23px] max-sm:text-sm bg-[#4C57FF] text-white rounded-3xl hover:bg-white hover:text-[#4C57FF] border border-solid border-[#4C57FF] transition-all duration-300 font-poppins font-medium'>
                     Get funded
                     </button>
                     </div>
                     <div className='w-3/12'>
                         <img width={'100%'} className='min-w-[327px] max-md:hidden' src={HeroImage} alt="HeroImage" />
-                        <img className='md:hidden min-w-[303px] translate-x-[71px]' src={HeroSmImage} alt="herosmimage" />
+                        <img className='md:hidden min-w-[201px] translate-x-[179px]' src={HeroSmImage} alt="herosmimage" />
                     </div>
                 </div>    
                </div>

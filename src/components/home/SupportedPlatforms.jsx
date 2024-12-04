@@ -12,10 +12,10 @@ const SupportedPlatforms = () => {
                 <p className='uppercase font-semibold text-white tracking-[8%] text-sm leading-[150%] font-poppins'>main supported platforms</p>
             </div>
                <div className='flex gap-[52px] justify-center flex-wrap'>
-               <img src={Amazon} alt="Amazon" />
-                <img src={Shopify} alt="Shopify" />
-                <img src={Ebay} alt="Ebay" />
-                <img src={Bigcommerce} alt="Ebay" />
+                <a target='_blank' href="https://www.amazon.com/"><img className='max-md:w-[88px]' src={Amazon} alt="Amazon" /></a>
+                <a target='_blank' href="https://www.shopify.com/"><img className='max-md:w-[134px]' src={Shopify} alt="Shopify" /></a>
+                <a target='_blank' href="https://www.ebay.com/"><img className='max-md:w-[73px]' src={Ebay} alt="Ebay" /></a>
+                <a target='_blank' href="https://www.bigcommerce.com/"><img className='max-md:w-[101px]' src={Bigcommerce} alt="Ebay" /></a>
                </div>
         </div>
     </div>

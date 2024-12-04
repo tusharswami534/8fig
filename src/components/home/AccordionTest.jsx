@@ -25,7 +25,7 @@ const AccordionTest = () => {
               onClick={() => toggleAccordion(i)}
               className='w-full py-5 px-4  bg-transparent font-poppins opacity-100 justify-between relative z-10 items-center text-left flex font-medium text-lg leading-[150%]'>
               {data.ButtonName}
-              <div className={`${openIndex === i ? "after:!rotate-0 transition-all duration-300" : "aftrer:rotate-90"} w-3 h-0.5 bg-black relative after:w-full after:h-full after:rotate-90 after:absolute after:left-0 after:top-0 after:bg-black after:rounded-[1.5px] after:transition-all after:duration-300    `}>
+              <div className={`${openIndex === i ? "after:!rotate-0 transition-all duration-300" : "aftrer:rotate-90"} w-3 h-0.5 bg-[#0E1122] relative after:w-full after:h-full after:rotate-90 after:absolute after:left-0 after:top-0 after:bg-[#0E1122] after:rounded-[1.5px] after:transition-all after:duration-300    `}>
 
               </div>
             </button>

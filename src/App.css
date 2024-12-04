@@ -1,0 +1,17 @@
+@media (max-width: 639.98px){
+    .facbook-icon svg{
+        width: 9px;
+    }
+    
+    .instagram-icon svg {
+        width: 17px;
+    }
+    .linked-icon svg {
+        width: 20px;
+    }
+    
+    .twitter-icon svg {
+        width: 18px;
+    }
+
+}
