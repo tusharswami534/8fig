@@ -27,7 +27,7 @@ const Footer = () => {
                </div>
         </div>
                <p className='max-w-[163px] mt-3.5 text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden'>8fig, 1717 W 6th St, Austin, Texas</p>
-               <p className='text-center mt-[63px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden flex max-sm:justify-center uppercase'><span className='!text-[23px] flex '>©</span> {currentYear} 8fig - All Rights Reserved</p>
+               <p className='text-center mt-[63px] text-[#76767F] font-poppins font-medium tracking-[8%] leading-[150%] text-sm lg:hidden flex max-sm:justify-center uppercase gap-1'><span className='!text-[23px] flex '>©</span> {currentYear} 8fig - All Rights Reserved</p>
     </div>
   )
 }

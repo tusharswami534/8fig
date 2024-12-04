@@ -7,12 +7,12 @@ import HeroSmImage from '../../assets/image/webp/hero-sm-image.webp'
 
 const Hero = () => {
   return (
-    <div style={{backgroundImage: `url(${HeroBgImage})`}} className='bg-cover bg-center bg-no-repeat p-4 overflow-hidden'>
+    <div style={{backgroundImage: `url(${HeroBgImage})`}} className='bg-cover max-sm:max-h-[844px] bg-center bg-no-repeat p-4 overflow-hidden'>
             <div className='py-6'>
                 <a href="/">
                 <img src={Logo} alt="logo" /></a>
             </div>
-            <div className='min-h-[771px] w-full flex justify-center items-center'>
+            <div className='min-h-[771px] max-sm:min-h-[730px] w-full flex justify-center items-center'>
                <div className='max-w-[1140px] w-full h-full mx-auto'>
                <div className='flex flex-wrap max-lg:gap-y-[150px] max-lg:flex-col-reverse'>
                     <div className='w-9/12 max-lg:w-full'>
